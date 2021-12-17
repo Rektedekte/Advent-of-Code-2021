@@ -2,7 +2,6 @@ def step():
     for i in range(len(arr)):
         for j in range(len(arr[0])):
             if dij_map[i][j]:
-                
 
 with open("input.txt", "r") as f:
     data = f.read()
